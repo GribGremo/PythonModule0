@@ -55,6 +55,7 @@ def test_ft_exercise(exercise_file_name):
             ft_function()
 
     except ImportError:
+        print(f"Module{ft_module}\n Function{ft_function}")
         print(f"❌ Could not find {exercise_file_name}.py")
         print(
             """   Make sure your file exists and is in the same
